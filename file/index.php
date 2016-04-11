@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/favicon.ico">
 
-    <title>MAX</title>
+    <title>title</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="http://showrs.huder.link/">Home</a></li>
+                <li class="active"><a href="./index.php">Home</a></li>
               </ul>
             </div>
           </div>

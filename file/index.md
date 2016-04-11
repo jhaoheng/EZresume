@@ -10,4 +10,4 @@ content
 
 - [company][company]
 
-[company]:http://
+[company]:index.php?demo=company

@@ -83,16 +83,10 @@
     <script type="text/javascript" src='https://cdn.rawgit.com/showdownjs/showdown/1.1.0/dist/showdown.min.js'></script>
     <script type="text/javascript" src='parsemd.js'></script>
     <script type="text/javascript">
-
-      var demo = '<?php echo $_GET['demo'];?>';
-      var default_path;
-      if (demo == '') {
-        default_path = './index.md';
-      }
-      else {
-        default_path = './'+demo+'.md';
-      }
-      show_md_file(default_path);
+      var mdfile = '<?php echo $_GET['demo'];?>';
+      mdfile = (mdfile=='')?'index':mdfile;
+      var _path = './markdown/'+mdfile+'.md';
+      show_md_file(_path);
     </script>
 
   </body>

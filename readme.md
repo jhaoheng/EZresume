@@ -2,6 +2,9 @@
 
 ![img](img.png)
 
+## about
+Edit 'Markdown file' and upload，javascript will export html.
+
 ## file
 - index.php : Main template
 - index.md : Main content

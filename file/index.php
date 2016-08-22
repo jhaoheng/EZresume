@@ -91,8 +91,6 @@
       }
       var _path = './markdown/'+mdfile+'.md';
       show_md_file(_path);
-
-      mixpanel.track(mdfile);
     </script>
 
   </body>
